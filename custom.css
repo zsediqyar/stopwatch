@@ -24,9 +24,10 @@ ul li {
     list-style: none !important;
     font-size: 1.5em;
     color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    border-bottom: 1px solid rgba(255,255,255, 0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: left;
 }
+
 
 #laptimes {
     margin-top: 2em;
@@ -35,7 +36,23 @@ ul li {
     letter-spacing: 5px;
 }
 
+#inSec {
+    font-size: 16px !important;
+    font-family: 'Courier New', Courier, monospace;
+
+}
 .display-2 {
     color: rgb(215, 49, 20);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+@media (max-width: 425px) {
+    .display-2 {
+        font-size: 2.5em !important;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+    }
+    .btn {
+        margin: .5em !important;
+    }
 }
