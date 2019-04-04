@@ -39,9 +39,8 @@ function recordTime() {
     var timer = document.getElementById("timer");
     //create li tag
     var liTag = document.createElement("li");
-    var sec = "Seconds";
     //catch value of timer in li tag
-    liTag.innerHTML = timer.textContent + " " + sec;
+    liTag.innerHTML = timer.textContent;
     //catch the ul
     var ulTag = document.getElementById("pasttimes");
     //append li to ul
