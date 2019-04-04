@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+}
+
+
+.jumbotron {
+    background: none;
+    text-align: center;
+    margin: 0 auto 0 auto !important;
+    padding: none !important;
+}
+
+#timer {
+    margin-top: -1.25em;
+    color: gray;
+}
+
+.btn {
+    width: 120px !important;
+    height: 50px !important;
+}
+
+ul li {
+    list-style: none !important;
+    font-size: 1.5em;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    border-bottom: 1px solid rgba(255,255,255, 0.8);
+}
+
+#laptimes {
+    margin-top: 2em;
+    font-size: 1.5em;
+    color: gray;
+    letter-spacing: 5px;
+}
+
+.display-2 {
+    color: rgb(215, 49, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
